@@ -10,5 +10,5 @@ test.each([
   'Проверка работы метода validateUsername со значением (%s)',
   (userName, expected) => {
     expect(Validator.validateUsername(userName)).toBe(expected);
-  }
+  },
 );
